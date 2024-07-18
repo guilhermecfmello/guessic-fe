@@ -1,0 +1,16 @@
+/* src/colors.css */
+:root {
+    --color-background: #FAF6EE;
+    --color-text: #333;
+    --color-header-background: #9ce1c9;
+    --color-header-text: #FAF6EE;
+    --color-footer-background: #288692;
+    --color-footer-text: #FAF6EE;
+    --color-section-border: #ccc;
+    --color-section-title: #333;
+    --color-section-text: #666;
+    --color-button-background: #FFD662;
+    --color-button-text: #FAF6EE;
+    --color-button-hover: #FFD662;
+  }
+  

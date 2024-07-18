@@ -1,0 +1,39 @@
+/* src/GamePage.css */
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: var(--color-section-title);
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: var(--color-section-text);
+  }
+  
+  .artist-input {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid var(--color-section-border);
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 20px;
+  }
+  
+  .artist-input:focus {
+    border-color: var(--color-header-background);
+  }
+  
