@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import Index from './Index'
-import ArtistGame from './ArtistGame'
+import ArtistGame from './pages/ArtistGame'
 
 function App() {
 

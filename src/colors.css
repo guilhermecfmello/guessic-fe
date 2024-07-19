@@ -12,5 +12,9 @@
     --color-button-background: #FFD662;
     --color-button-text: #FAF6EE;
     --color-button-hover: #FFD662;
+    --color-no-match: #FAF6EE;
+    --color-close: #FFD662;
+    --color-match: #9ce1c9;
+    --color-border-color: #ccc;
   }
   
