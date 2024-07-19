@@ -1,0 +1,113 @@
+[
+    {
+      "imgSrc": "https://cdn-icons-png.flaticon.com/512/431/431238.png",
+      "name": "The Rockers",
+      "debut": "2015-03-10",
+      "members": "John, Paul, George, Ringo",
+      "popularity": "High",
+      "gender": "Male",
+      "genre": "Rock",
+      "cityFlag": "https://cdn-icons-png.flaticon.com/512/8354/8354127.png",
+      "cityName": "Los Angeles"
+    },
+    {
+      "imgSrc": "https://cdn-icons-png.flaticon.com/512/431/431238.png",
+      "name": "The Jazz Cats",
+      "debut": "2010-07-21",
+      "members": "Miles, Ella, Louis",
+      "popularity": "Medium",
+      "gender": "Mixed",
+      "genre": "Jazz",
+      "cityFlag": "https://cdn-icons-png.flaticon.com/512/8354/8354127.png",
+      "cityName": "New Orleans"
+    },
+    {
+      "imgSrc": "https://cdn-icons-png.flaticon.com/512/431/431238.png",
+      "name": "Pop Sensations",
+      "debut": "2018-11-15",
+      "members": "Taylor, Ariana, Justin",
+      "popularity": "High",
+      "gender": "Mixed",
+      "genre": "Pop",
+      "cityFlag": "https://cdn-icons-png.flaticon.com/512/8354/8354127.png",
+      "cityName": "New York"
+    },
+    {
+      "imgSrc": "https://cdn-icons-png.flaticon.com/512/431/431238.png",
+      "name": "Country Stars",
+      "debut": "2005-05-30",
+      "members": "Luke, Carrie, Blake",
+      "popularity": "High",
+      "gender": "Mixed",
+      "genre": "Country",
+      "cityFlag": "https://cdn-icons-png.flaticon.com/512/8354/8354127.png",
+      "cityName": "Nashville"
+    },
+    {
+      "imgSrc": "https://cdn-icons-png.flaticon.com/512/431/431238.png",
+      "name": "Hip Hop Legends",
+      "debut": "2012-09-14",
+      "members": "Jay-Z, Kanye, Nas",
+      "popularity": "High",
+      "gender": "Male",
+      "genre": "Hip Hop",
+      "cityFlag": "https://cdn-icons-png.flaticon.com/512/8354/8354127.png",
+      "cityName": "Chicago"
+    },
+    {
+      "imgSrc": "https://cdn-icons-png.flaticon.com/512/431/431238.png",
+      "name": "Indie Vibes",
+      "debut": "2019-04-22",
+      "members": "Alex, Jamie, Nick",
+      "popularity": "Medium",
+      "gender": "Male",
+      "genre": "Indie",
+      "cityFlag": "https://cdn-icons-png.flaticon.com/512/8354/8354127.png",
+      "cityName": "Seattle"
+    },
+    {
+      "imgSrc": "https://cdn-icons-png.flaticon.com/512/431/431238.png",
+      "name": "Electronic Beats",
+      "debut": "2017-12-05",
+      "members": "Daft Punk, Calvin Harris, Deadmau5",
+      "popularity": "High",
+      "gender": "Mixed",
+      "genre": "Electronic",
+      "cityFlag": "https://cdn-icons-png.flaticon.com/512/8354/8354127.png",
+      "cityName": "Berlin"
+    },
+    {
+      "imgSrc": "https://cdn-icons-png.flaticon.com/512/431/431238.png",
+      "name": "Reggae Rhythms",
+      "debut": "2000-01-15",
+      "members": "Bob, Ziggy, Damian",
+      "popularity": "Medium",
+      "gender": "Male",
+      "genre": "Reggae",
+      "cityFlag": "https://cdn-icons-png.flaticon.com/512/8354/8354127.png",
+      "cityName": "Kingston"
+    },
+    {
+      "imgSrc": "https://cdn-icons-png.flaticon.com/512/431/431238.png",
+      "name": "Soul Singers",
+      "debut": "2008-06-19",
+      "members": "Aretha, Stevie, Marvin",
+      "popularity": "High",
+      "gender": "Mixed",
+      "genre": "Soul",
+      "cityFlag": "https://cdn-icons-png.flaticon.com/512/8354/8354127.png",
+      "cityName": "Detroit"
+    },
+    {
+      "imgSrc": "https://cdn-icons-png.flaticon.com/512/431/431238.png",
+      "name": "Blues Brothers",
+      "debut": "1995-08-25",
+      "members": "Eric, B.B., Muddy",
+      "popularity": "Medium",
+      "gender": "Male",
+      "genre": "Blues",
+      "cityFlag": "https://cdn-icons-png.flaticon.com/512/8354/8354127.png",
+      "cityName": "Memphis"
+    }
+  ]
+  

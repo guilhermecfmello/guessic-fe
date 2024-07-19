@@ -1,8 +1,24 @@
-import React from "react";
+import React, { useState, ChangeEvent } from "react";
 import "./ArtistGame.css";
 import ArtistDisplay from './components/ArtistDisplay/ArtistDisplay';
+import mockData from "./mocks/artists-mock.json";
+import { ArtistDisplayProps } from "./types/ArtistDisplayProps";
 
 const ArtistGame: React.FC = () => {
+  const [bands, setBands] = useState<ArtistDisplayProps[]>(mockData as ArtistDisplayProps[]);
+  const [artistName, setArtistName] = useState<string>('');
+
+  const handleSearchChange = (event: ChangeEvent<HTMLInputElement>) => {
+    const value = event.target.value;
+    setArtistName(value);
+    const bands = mockData.filter((band) =>
+      band.name.toLowerCase().includes(value.toLowerCase())
+  );
+    setBands(
+      bands
+    );
+  };
+
   return (
     <div className="guess-container">
       <div className="game-container">
@@ -12,19 +28,24 @@ const ArtistGame: React.FC = () => {
           type="text"
           placeholder="Digite o nome do artista"
           className="artist-input"
+          value={artistName}
+          onChange={handleSearchChange}
         />
       </div>
-      <ArtistDisplay
-        imgSrc="https://i.scdn.co/image/ab6761610000e5ebaccd7a0491c0fa9f7afee49f"
-        name="Cuco"
-        debut="2016"
-        members="Solo"
-        popularity="#806"
-        gender="Male"
-        genre="Pop"
-        cityFlag="https://flagcdn.com/w80/us.png"
-        cityName="Itu"
-      />
+      {bands.map((band, index) => (
+        <ArtistDisplay
+          key={index}
+          imgSrc={band.imgSrc}
+          name={band.name}
+          debut={band.debut}
+          members={band.members}
+          popularity={band.popularity}
+          gender={band.gender}
+          genre={band.genre}
+          cityFlag={band.cityFlag}
+          cityName={band.cityName}
+        />
+      ))}
     </div>
   );
 };
